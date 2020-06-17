@@ -6,10 +6,11 @@ class App extends Component {
   handleClick = () => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(position => {
-        console.log(position);
+        console.log(position.coords.latitude);
+        console.log(position.coords.longitude);
       }, onerror => {
         console.log(onerror);
-      });
+      },{maximumAge:10000, timeout:5000, enableHighAccuracy: true});
     } else {
       console.log("not supported");
     }
