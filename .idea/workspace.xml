@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd2302cf-974d-4e65-ab48-71b979d65891" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/graph/graph.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/graph/graph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/landing/landing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/landing/landing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/map/map.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/map/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/layout/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/layout/layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
@@ -10,11 +18,21 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1dMot6l3Jxnp3v3dM8BUcv3tUig" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,6 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -44,7 +63,8 @@
       <workItem from="1592322795895" duration="2000" />
       <workItem from="1592322961856" duration="520000" />
       <workItem from="1592373457504" duration="2648000" />
-      <workItem from="1592387946701" duration="1145000" />
+      <workItem from="1592387946701" duration="1244000" />
+      <workItem from="1592460483933" duration="1859000" />
     </task>
     <servers />
   </component>
@@ -56,5 +76,13 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="779" y="297" width="424" height="482" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1592376006612" />
+    <state x="776" y="229" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592461742022">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="776" y="229" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/65.24.1855.1056@65.24.1855.1056" timestamp="1592461742022" />
+    <state x="655" y="246" key="run.anything.popup" timestamp="1592462071811">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="655" y="246" key="run.anything.popup/65.24.1855.1056@65.24.1855.1056" timestamp="1592462071811" />
   </component>
 </project>
