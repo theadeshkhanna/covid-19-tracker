@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cd2302cf-974d-4e65-ab48-71b979d65891" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/landing.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/landing.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,8 @@
       <workItem from="1592322961856" duration="520000" />
       <workItem from="1592373457504" duration="2648000" />
       <workItem from="1592387946701" duration="1244000" />
-      <workItem from="1592460483933" duration="2415000" />
+      <workItem from="1592460483933" duration="2572000" />
+      <workItem from="1592488886551" duration="683000" />
     </task>
     <servers />
   </component>
@@ -65,10 +64,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="779" y="297" width="424" height="482" key="FileChooserDialogImpl" timestamp="1592376006612">
+    <state x="779" y="297" width="424" height="482" key="FileChooserDialogImpl" timestamp="1592463147383">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="779" y="297" width="424" height="482" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1592376006612" />
+    <state x="779" y="297" width="424" height="482" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1592463147383" />
     <state x="776" y="229" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592461742022">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
