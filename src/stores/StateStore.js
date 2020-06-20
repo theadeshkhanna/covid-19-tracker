@@ -3,13 +3,18 @@ import axios from "../axios-instance";
 
 class StateStore {
     @observable data = null;
+    @observable loading = null;
+    @observable error = null;
 
     @action getData = () => {
+        this.loading = true;
         axios.get("/data.json")
             .then((res) => {
-                console.log(res.data.statewise);
+                this.loading = false;
+                this.data = res.data.statewise;
             }).catch((res) => {
-            console.log(res.data);
+                this.loading = false;
+                this.error = res.data.message;
         });
     }
 }

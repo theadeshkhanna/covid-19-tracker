@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd2302cf-974d-4e65-ab48-71b979d65891" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/chart/chart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/chart/chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stores/StateStore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/chart/chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/chart/chart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/graph/graph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/graph/graph.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/StateStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/StateStore.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +62,7 @@
       <workItem from="1592488886551" duration="683000" />
       <workItem from="1592559440888" duration="1367000" />
       <workItem from="1592565763790" duration="649000" />
-      <workItem from="1592640841016" duration="3190000" />
+      <workItem from="1592640841016" duration="6517000" />
     </task>
     <servers />
   </component>
@@ -73,10 +70,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="165" y="96" width="1655" height="884" key="DiffContextDialog" timestamp="1592560331322">
+    <state x="165" y="96" width="1655" height="884" key="DiffContextDialog" timestamp="1592647609050">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="165" y="96" width="1655" height="884" key="DiffContextDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1592560331322" />
+    <state x="165" y="96" width="1655" height="884" key="DiffContextDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1592647609050" />
     <state x="779" y="297" width="424" height="482" key="FileChooserDialogImpl" timestamp="1592463147383">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
