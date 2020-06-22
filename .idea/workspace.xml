@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd2302cf-974d-4e65-ab48-71b979d65891" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/state-wise/state-wise.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/state-wise/state-wise.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/graph/graph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/graph/graph.js" afterDir="false" />
     </list>
@@ -33,7 +35,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dlp-be-refactored" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -61,7 +63,8 @@
       <workItem from="1592559440888" duration="1367000" />
       <workItem from="1592565763790" duration="649000" />
       <workItem from="1592640841016" duration="6762000" />
-      <workItem from="1592805384554" duration="837000" />
+      <workItem from="1592805384554" duration="1004000" />
+      <workItem from="1592842523232" duration="4044000" />
     </task>
     <servers />
   </component>

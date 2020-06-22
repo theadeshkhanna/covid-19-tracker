@@ -1,58 +1,23 @@
 import React, {Component} from "react";
-import {inject, observer} from "mobx-react";
-import Chart from "../chart/chart";
-import {toJS} from "mobx";
+import { Switch, Route } from "react-router";
+import { Link } from "react-router-dom";
+import StateWise from "../state-wise/state-wise";
 
-@inject("StateStore")
-@observer
 class Graph extends Component {
 
-    state = {
-      manipulatedData: null
-    };
-
-    componentDidMount() {
-        this.props.StateStore.getData();
-    }
-
-    handleClick = () => {
-        let newData = [];
-        this.props.StateStore.data.filter(obj => (obj.state !== "Total"))
-            .filter(obj => (obj.state !== "State Unassigned"))
-            .map((o, i) => {
-            let newObj = {
-                "name": o.state,
-                "active": o.active,
-                "confirmed": o.confirmed,
-                "deaths": o.deaths
-            };
-            newData.push(newObj);
-        });
-
-        this.setState({
-            manipulatedData: newData
-        });
-    };
-
     render() {
-
-        let thing = null;
-
-        if (this.state.manipulatedData === null) {
-            thing = (
-                <p>Loading!!</p>
-            );
-        } else {
-            thing = (
-                <Chart data={this.state.manipulatedData} />
-            )
-        }
-
         return (
             <div>
-                <h2>This is Graph Page</h2>
-                <button onClick={this.handleClick}>state-wise</button>
-                {thing}
+                <ul>
+                    <li><Link to="graph/state-wise">State-Wise</Link></li>
+                    <li><Link to="graph/district-wise">District-wise</Link></li>
+                    <li><Link to="graph/district-daily">District-Daily</Link></li>
+                </ul>
+                <Switch>
+                    <Route path="graph/state-wise" exact component={StateWise} />
+                    <Route path="graph/district-wise" exact component={StateWise} />
+                    <Route path="graph/district-daily" exact component={StateWise} />
+                </Switch>
             </div>
         );
     }
