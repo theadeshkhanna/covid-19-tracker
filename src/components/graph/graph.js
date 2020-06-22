@@ -17,7 +17,9 @@ class Graph extends Component {
 
     handleClick = () => {
         let newData = [];
-        this.props.StateStore.data.filter(obj => (obj.state !== ("Total" || "State Unassigned"))).map((o, i) => {
+        this.props.StateStore.data.filter(obj => (obj.state !== "Total"))
+            .filter(obj => (obj.state !== "State Unassigned"))
+            .map((o, i) => {
             let newObj = {
                 "name": o.state,
                 "active": o.active,
