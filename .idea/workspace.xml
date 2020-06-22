@@ -4,8 +4,7 @@
     <list default="true" id="cd2302cf-974d-4e65-ab48-71b979d65891" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/graph/graph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/graph/graph.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/state-wise/state-wise.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/stateWise/stateWise.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/state-wise/state-wise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/stateWise/stateWise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/stateWise/stateWise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/stateWise/stateWise.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,7 @@
       <workItem from="1592565763790" duration="649000" />
       <workItem from="1592640841016" duration="6762000" />
       <workItem from="1592805384554" duration="1004000" />
-      <workItem from="1592842523232" duration="5282000" />
+      <workItem from="1592842523232" duration="6005000" />
     </task>
     <servers />
   </component>

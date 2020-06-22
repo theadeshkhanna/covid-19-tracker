@@ -12,7 +12,7 @@ class StateWise extends Component {
 
     render() {
         let chart_data = null;
-        if (this.props.StateStore.loading === true) {
+        if (this.props.StateStore.loading === true || null) {
             chart_data = <p>Loading!!</p>
         } else {
             let newData = [];

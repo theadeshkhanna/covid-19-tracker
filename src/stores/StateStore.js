@@ -10,11 +10,11 @@ class StateStore {
         this.loading = true;
         axios.get("/data.json")
             .then((res) => {
-                this.loading = false;
                 this.data = res.data.statewise;
-            }).catch((res) => {
                 this.loading = false;
+            }).catch((res) => {
                 this.error = res.data.message;
+                this.loading = false;
         });
     }
 }
