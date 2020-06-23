@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd2302cf-974d-4e65-ab48-71b979d65891" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stores/DistrictStore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/districtWise/districtWise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/districtWise/districtWise.js" afterDir="false" />
     </list>
@@ -14,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -66,7 +65,7 @@
       <workItem from="1592842523232" duration="6120000" />
       <workItem from="1592891567544" duration="90000" />
       <workItem from="1592893944487" duration="1332000" />
-      <workItem from="1592896653526" duration="1321000" />
+      <workItem from="1592896653526" duration="2166000" />
     </task>
     <servers />
   </component>
@@ -74,10 +73,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="165" y="96" width="1655" height="884" key="DiffContextDialog" timestamp="1592647609050">
+    <state x="165" y="96" width="1655" height="884" key="DiffContextDialog" timestamp="1592899530309">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="165" y="96" width="1655" height="884" key="DiffContextDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1592647609050" />
+    <state x="165" y="96" width="1655" height="884" key="DiffContextDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1592899530309" />
     <state x="779" y="297" width="424" height="482" key="FileChooserDialogImpl" timestamp="1592891656097">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>

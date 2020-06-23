@@ -4,13 +4,14 @@ import { observer, inject } from "mobx-react";
 @inject("DistrictStore")
 @observer
 class DistrictWise extends Component {
+
+    componentDidMount() {
+        this.props.DistrictStore.getDistrictData();
+    }
+
     render() {
         return (
-            <div>
-                <select name="states">
-
-                </select>
-            </div>
+            <h2>This is districtWise page</h2>
         );
     }
 }
