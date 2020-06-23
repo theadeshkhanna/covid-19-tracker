@@ -12,9 +12,7 @@ class StateWise extends Component {
 
     render() {
         let chart_data = null;
-        if (this.props.StateStore.loading === true || null) {
-            chart_data = <p>Loading!!</p>
-        } else {
+        if (this.props.StateStore.data !== null) {
             let newData = [];
             this.props.StateStore.data
                 .filter(obj => (obj.state !== "Total"))
@@ -30,6 +28,8 @@ class StateWise extends Component {
                     newData.push(newObj);
                 });
             chart_data = <Chart data={newData} />
+        } else {
+            chart_data = <p>Loading!!</p>
         }
         return chart_data;
     }
