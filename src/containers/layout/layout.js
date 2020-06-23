@@ -3,6 +3,8 @@ import { Switch, Route } from "react-router";
 import Landing from "../../components/landing/landing";
 import StateWise from "../../components/stateWise/stateWise";
 import {Link} from "react-router-dom";
+import DistrictWise from "../../components/districtWise/districtWise";
+import DistrictDaily from "../../components/districtDaily/districtDaily";
 
 class Layout extends Component {
     render() {
@@ -16,8 +18,8 @@ class Layout extends Component {
                 <Switch>
                     <Route path="/" exact component={Landing} />
                     <Route path="/state-wise" exact component={StateWise} />
-                    <Route path="/district-wise" exact component={StateWise} />
-                    <Route path="/district-daily" exact component={StateWise} />
+                    <Route path="/district-wise" exact component={DistrictWise} />
+                    <Route path="/district-daily" exact component={DistrictDaily} />
                 </Switch>
             </Fragment>
         );
