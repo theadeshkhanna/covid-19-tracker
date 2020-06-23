@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd2302cf-974d-4e65-ab48-71b979d65891" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/districtDaily/districtDaily.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/districtDaily/districtDaily.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/districtWise/districtWise.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/districtWise/districtWise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stores/DistrictStore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/layout/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/layout/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/districtWise/districtWise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/districtWise/districtWise.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -69,7 +66,7 @@
       <workItem from="1592842523232" duration="6120000" />
       <workItem from="1592891567544" duration="90000" />
       <workItem from="1592893944487" duration="1332000" />
-      <workItem from="1592896653526" duration="323000" />
+      <workItem from="1592896653526" duration="1321000" />
     </task>
     <servers />
   </component>

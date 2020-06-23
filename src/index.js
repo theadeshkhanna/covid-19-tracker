@@ -5,10 +5,12 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import { Provider } from "mobx-react";
 import StateStore from "./stores/StateStore";
+import DistrictStore from "./stores/DistrictStore";
 
 const root = (
     <Provider
-        StateStore = {StateStore}>
+        StateStore = {StateStore}
+        DistrictStore = {DistrictStore}>
         <App />
     </Provider>
 );

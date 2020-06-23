@@ -1,9 +1,16 @@
 import React, {Component} from "react";
+import { observer, inject } from "mobx-react";
 
+@inject("DistrictStore")
+@observer
 class DistrictWise extends Component {
     render() {
         return (
-            <h2>This is DistrictWise Page</h2>
+            <div>
+                <select name="states">
+
+                </select>
+            </div>
         );
     }
 }
