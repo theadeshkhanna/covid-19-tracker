@@ -36,7 +36,6 @@ const Chart = (props) => {
                 }}
                 width={100}
                 height={50}
-                options={{ maintainAspectRatio: true }}
             />
 
             <Bar
@@ -50,7 +49,6 @@ const Chart = (props) => {
                 }}
                 width={100}
                 height={50}
-                options={{ maintainAspectRatio: true }}
             />
 
             <Bar
@@ -64,7 +62,6 @@ const Chart = (props) => {
                 }}
                 width={100}
                 height={50}
-                options={{ maintainAspectRatio: true }}
             />
         </div>
     );

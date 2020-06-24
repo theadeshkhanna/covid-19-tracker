@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import { observer, inject } from "mobx-react";
 import Chart from "../chart/chart";
+import {toJS} from "mobx";
 
 @inject("DistrictStore")
 @observer
@@ -25,8 +26,6 @@ class DistrictWise extends Component {
         let chart_data = null;
         if (this.props.DistrictStore.data !== null) {
             if (this.state.selectedState !== null) {
-                 const state_name = Object.keys(this.props.DistrictStore.data)
-                    .filter(obj => obj === this.state.selectedState);
 
             } else {
                 chart_data = <p>Please select a state to begin with</p>
