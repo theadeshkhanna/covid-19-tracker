@@ -26,7 +26,21 @@ class DistrictWise extends Component {
         let chart_data = null;
         if (this.props.DistrictStore.data !== null) {
             if (this.state.selectedState !== null) {
-
+                const data = [];
+                 const state_name = Object.keys(this.props.DistrictStore.data).filter(obj => obj === this.state.selectedState);
+                 const pure_state = Object.keys(this.props.DistrictStore.data[state_name].districtData).filter(obj => obj !== "Other State");
+                // eslint-disable-next-line array-callback-return
+                     pure_state.map((o,i) => {
+                         const district = toJS(this.props.DistrictStore.data[state_name].districtData[o]);
+                         let newObj = {
+                             "name": o,
+                             "active": district.active,
+                             "confirmed": district.confirmed,
+                             "deaths": district.deceased
+                         };
+                         data.push(newObj);
+                     });
+                chart_data = <Chart data={data} />
             } else {
                 chart_data = <p>Please select a state to begin with</p>
             }
