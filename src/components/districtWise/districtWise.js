@@ -21,24 +21,34 @@ class DistrictWise extends Component {
     }
 
     render() {
+        let page_data = null;
         let chart_data = null;
         if (this.props.DistrictStore.data !== null) {
-            chart_data = (
-                <select onChange={this.handleDropDownChange}>
-                    {
-                        Object.keys(this.props.DistrictStore.data)
-                              .filter(obj => obj !== "State Unassigned")
-                              .map((o,i) => {
-                                  return <option value = {o}>{o}</option>
-                              })
-                    }
-                </select>
+            if (this.state.selectedState !== null) {
+                 const state_name = Object.keys(this.props.DistrictStore.data)
+                    .filter(obj => obj === this.state.selectedState);
 
+            } else {
+                chart_data = <p>Please select a state to begin with</p>
+            }
+            page_data = (
+                <div>
+                    <select onChange={this.handleDropDownChange}>
+                        {
+                            Object.keys(this.props.DistrictStore.data)
+                                .filter(obj => obj !== "State Unassigned")
+                                .map((o,i) => {
+                                    return <option value = {o}>{o}</option>
+                                })
+                        }
+                    </select>
+                    {chart_data}
+                </div>
             );
         } else {
-            chart_data = <p>Loading!!</p>
+            page_data = <p>Loading!!</p>
         }
-        return chart_data;
+        return page_data;
     }
 }
 
