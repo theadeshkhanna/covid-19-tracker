@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd2302cf-974d-4e65-ab48-71b979d65891" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Input/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Input/Input.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/districtWise/districtWise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/districtWise/districtWise.js" afterDir="false" />
-    </list>
+    <list default="true" id="cd2302cf-974d-4e65-ab48-71b979d65891" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +63,7 @@
       <workItem from="1592891567544" duration="90000" />
       <workItem from="1592893944487" duration="1332000" />
       <workItem from="1592896653526" duration="2221000" />
-      <workItem from="1592926030441" duration="2359000" />
+      <workItem from="1592926030441" duration="2467000" />
     </task>
     <servers />
   </component>
