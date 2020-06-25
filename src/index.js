@@ -6,11 +6,13 @@ import registerServiceWorker from './registerServiceWorker';
 import { Provider } from "mobx-react";
 import StateStore from "./stores/StateStore";
 import DistrictStore from "./stores/DistrictStore";
+import DistrictDailyStore from "./stores/DistrictDailyStore";
 
 const root = (
     <Provider
         StateStore = {StateStore}
-        DistrictStore = {DistrictStore}>
+        DistrictStore = {DistrictStore}
+        DistrictDailyStore = {DistrictDailyStore}>
         <App />
     </Provider>
 );
