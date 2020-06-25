@@ -37,18 +37,18 @@ class DistrictDaily extends Component {
                     district_dropdown = (
                         <select onChange={this.handleDistrictDropDownChange}>
                             {
-                                // Object.keys(this.props.DistrictDailyStore.data)
-                                //     .filter(obj => obj !== "State Unassigned")
-                                //     .map((o,i) => {
-                                //         return <option value = {o}>{o}</option>
-                                //     })
+                                Object.keys(this.props.DistrictDailyStore.data.districtsDaily[this.state.selectedState])
+                                    .filter(obj => obj !== "State Unassigned")
+                                    .map((o,i) => {
+                                        return <option value = {o}>{o}</option>
+                                    })
                             }
                         </select>
                     );
                 if (this.state.selectedDistrict !== null) {
 
                 } else {
-                    district_dropdown = <p>Please select a district to begin wit</p>
+                    chart_data = <p>Please select a district to begin with</p>
                 }
             }
              else {
@@ -65,6 +65,8 @@ class DistrictDaily extends Component {
                                 })
                         }
                     </select>
+                    <br />
+                    <br />
                     {district_dropdown}
                     {chart_data}
                 </div>
@@ -77,5 +79,4 @@ class DistrictDaily extends Component {
 }
 
 export default DistrictDaily;
-
 

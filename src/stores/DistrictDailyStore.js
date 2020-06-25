@@ -12,7 +12,6 @@ class DistrictDailyStore {
             .then((res) => {
                 this.data = res.data;
                 this.loading = false;
-                console.log(toJS(this.data.districtsDaily));
             }).catch((res) => {
             this.error = res.data.message;
             this.loading = false;
