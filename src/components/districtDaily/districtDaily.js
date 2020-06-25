@@ -46,7 +46,19 @@ class DistrictDaily extends Component {
                         </select>
                     );
                 if (this.state.selectedDistrict !== null) {
-
+                    const data = [];
+                    const district = this.props.DistrictDailyStore.data.districtsDaily[this.state.selectedState][this.state.selectedDistrict];
+                    // eslint-disable-next-line array-callback-return
+                    district.map((o,i) => {
+                        let newObj = {
+                            "name": o.date,
+                            "active": o.active,
+                            "confirmed": o.confirmed,
+                            "deaths": o.deceased
+                        };
+                        data.push(newObj);
+                    });
+                    chart_data = <Chart data={data} />
                 } else {
                     chart_data = <p>Please select a district to begin with</p>
                 }
@@ -79,4 +91,3 @@ class DistrictDaily extends Component {
 }
 
 export default DistrictDaily;
-
