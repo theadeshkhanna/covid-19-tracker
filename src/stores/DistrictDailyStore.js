@@ -1,4 +1,4 @@
-import { observable, action } from "mobx";
+import {observable, action, toJS} from "mobx";
 import axios from "../axios-instance";
 
 class DistrictDailyStore {
@@ -6,12 +6,13 @@ class DistrictDailyStore {
     @observable error = null;
     @observable loading = false;
 
-    @action getDistrictData = () => {
+    @action getDistrictDailyData = () => {
         this.loading = true;
         axios.get("/districts_daily.json")
             .then((res) => {
                 this.data = res.data;
                 this.loading = false;
+                console.log(toJS(this.data.districtsDaily));
             }).catch((res) => {
             this.error = res.data.message;
             this.loading = false;

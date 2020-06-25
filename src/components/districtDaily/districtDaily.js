@@ -1,11 +1,81 @@
 import React, { Component } from "react"
+import {inject, observer} from "mobx-react";
+import Chart from "../chart/chart";
+import {toJS} from "mobx";
 
+@inject("DistrictDailyStore")
+@observer
 class DistrictDaily extends Component {
+
+    state = {
+        selectedDistrict: null,
+        selectedState: null
+    }
+
+    componentDidMount() {
+        this.props.DistrictDailyStore.getDistrictDailyData();
+    }
+
+    handleStateDropDownChange = (event) => {
+        this.setState({
+            selectedState: event.target.value
+        });
+    }
+
+    handleDistrictDropDownChange = (event) => {
+        this.setState({
+            selectedDistrict: event.target.value
+        });
+    }
+
     render() {
-        return (
-            <h2>This is DistrictDaily Page</h2>
-        );
+        let page_data = null;
+        let chart_data = null;
+        let district_dropdown = null;
+        if (this.props.DistrictDailyStore.data !== null) {
+            if (this.state.selectedState !== null) {
+                    district_dropdown = (
+                        <select onChange={this.handleDistrictDropDownChange}>
+                            {
+                                // Object.keys(this.props.DistrictDailyStore.data)
+                                //     .filter(obj => obj !== "State Unassigned")
+                                //     .map((o,i) => {
+                                //         return <option value = {o}>{o}</option>
+                                //     })
+                            }
+                        </select>
+                    );
+                if (this.state.selectedDistrict !== null) {
+
+                } else {
+                    district_dropdown = <p>Please select a district to begin wit</p>
+                }
+            }
+             else {
+                chart_data = <p>Please select a state to begin with</p>
+            }
+            page_data = (
+                <div>
+                    <select onChange={this.handleStateDropDownChange}>
+                        {
+                            Object.keys(this.props.DistrictDailyStore.data.districtsDaily)
+                                .filter(obj => obj !== "State Unassigned")
+                                .map((o,i) => {
+                                    return <option value = {o}>{o}</option>
+                                })
+                        }
+                    </select>
+                    {district_dropdown}
+                    {chart_data}
+                </div>
+            );
+        } else {
+            page_data = <p>Loading!!</p>
+        }
+        return page_data;
     }
 }
 
 export default DistrictDaily;
+
+
