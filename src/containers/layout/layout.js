@@ -5,15 +5,16 @@ import StateWise from "../../components/stateWise/stateWise";
 import {Link} from "react-router-dom";
 import DistrictWise from "../../components/districtWise/districtWise";
 import DistrictDaily from "../../components/districtDaily/districtDaily";
+import classes from "./layout.css";
 
 class Layout extends Component {
     render() {
         return (
             <Fragment>
-                <ul>
-                    <li><Link to="/state-wise">State-Wise</Link></li>
-                    <li><Link to="/district-wise">District-wise</Link></li>
-                    <li><Link to="/district-daily">District-Daily</Link></li>
+                <ul className={classes.Navi}>
+                    <li><Link to="/state-wise" className={classes.Tag}>State-Wise</Link></li>
+                    <li><Link to="/district-wise" className={classes.Tag}>District-wise</Link></li>
+                    <li><Link to="/district-daily" className={classes.Tag}>District-Daily</Link></li>
                 </ul>
                 <Switch>
                     <Route path="/" exact component={Landing} />
