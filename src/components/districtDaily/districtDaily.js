@@ -17,7 +17,8 @@ class DistrictDaily extends Component {
 
     handleStateDropDownChange = (event) => {
         this.setState({
-            selectedState: event.target.value
+            selectedState: event.target.value,
+            selectedDistrict: null
         });
     }
 
