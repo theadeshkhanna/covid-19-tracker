@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import {inject, observer} from "mobx-react";
 import Chart from "../chart/chart";
+import Spinner from "../Spinner/Spinner";
 
 @inject("DistrictDailyStore")
 @observer
@@ -84,7 +85,7 @@ class DistrictDaily extends Component {
                 </div>
             );
         } else {
-            page_data = <p>Loading!!</p>
+            page_data = <Spinner />
         }
         return page_data;
     }

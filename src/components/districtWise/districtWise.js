@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import { observer, inject } from "mobx-react";
 import Chart from "../chart/chart";
 import {toJS} from "mobx";
+import Spinner from "../Spinner/Spinner";
 
 @inject("DistrictStore")
 @observer
@@ -59,7 +60,7 @@ class DistrictWise extends Component {
                 </div>
             );
         } else {
-            page_data = <p>Loading!!</p>
+            page_data = <Spinner />
         }
         return page_data;
     }

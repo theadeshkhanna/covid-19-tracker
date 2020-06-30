@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import Chart from "../chart/chart";
 import {inject, observer} from "mobx-react";
+import Spinner from "../Spinner/Spinner";
 
 @inject("StateStore")
 @observer
@@ -29,7 +30,7 @@ class StateWise extends Component {
                 });
             chart_data = <Chart data={newData} />
         } else {
-            chart_data = <p>Loading!!</p>
+            chart_data = <Spinner />
         }
         return chart_data;
     }
