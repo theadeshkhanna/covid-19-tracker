@@ -19,8 +19,6 @@ const Chart = (props) => {
         return obj.deaths;
     });
 
-    console.log(labels);
-
     return (
         <div>
             <Bar
