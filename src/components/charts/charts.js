@@ -1,6 +1,7 @@
 import React from "react";
 import { Bar } from 'react-chartjs-2';
 import classes from "./charts.css";
+import Carousel from 'react-elastic-carousel';
 
 const Charts = (props) => {
 
@@ -25,51 +26,56 @@ const Charts = (props) => {
     });
 
     return (
-        <div className={classes.ChartSize}>
-            <Bar
-                data={{
-                    labels: labels,
-                    datasets: [{
-                        label: 'Confirmed',
-                        backgroundColor: 'rgb(246,64,77)',
-                        data: confirmed
-                    }]
-                }}
-            />
-
-            <Bar
-                data={{
-                    labels: labels,
-                    datasets: [{
-                        label: 'Active',
-                        backgroundColor: 'rgb(9,120,247)',
-                        data: active
-                    }]
-                }}
-            />
-
-            <Bar
-                data={{
-                    labels: labels,
-                    datasets: [{
-                        label: 'Recovered',
-                        backgroundColor: 'rgb(66,168,70)',
-                        data: recovered
-                    }]
-                }}
-            />
-
-            <Bar
-                data={{
-                    labels: labels,
-                    datasets: [{
-                        label: 'Deaths',
-                        backgroundColor: 'rgb(154,160,165)',
-                        data: deaths
-                    }]
-                }}
-            />
-        </div>
+        <Carousel>
+            <div className={classes.ChartSize}>
+                <Bar
+                    data={{
+                        labels: labels,
+                        datasets: [{
+                            label: 'Confirmed',
+                            backgroundColor: 'rgb(246,64,77)',
+                            data: confirmed
+                        }]
+                    }}
+                />
+            </div>
+                <div className={classes.ChartSize}>
+                <Bar
+                    data={{
+                        labels: labels,
+                        datasets: [{
+                            label: 'Active',
+                            backgroundColor: 'rgb(9,120,247)',
+                            data: active
+                        }]
+                    }}
+                />
+                </div>
+                    <div className={classes.ChartSize}>
+                <Bar
+                    data={{
+                        labels: labels,
+                        datasets: [{
+                            label: 'Recovered',
+                            backgroundColor: 'rgb(66,168,70)',
+                            data: recovered
+                        }]
+                    }}
+                />
+                    </div>
+                        <div className={classes.ChartSize}>
+                <Bar
+                    data={{
+                        labels: labels,
+                        datasets: [{
+                            label: 'Deaths',
+                            backgroundColor: 'rgb(154,160,165)',
+                            data: deaths
+                        }]
+                    }}
+                />
+            </div>
+        </Carousel>
     );
 };
 
