@@ -28,16 +28,12 @@ const Chart = (props) => {
             <Bar
                 data={{
                     labels: labels,
-                    width: 100,
-                    height: 200,
                     datasets: [{
                         label: 'Confirmed',
                         backgroundColor: 'rgb(246,64,77)',
                         data: confirmed
                     }]
                 }}
-                width={100}
-                height={50}
             />
 
             <Bar
@@ -49,23 +45,17 @@ const Chart = (props) => {
                         data: active
                     }]
                 }}
-                width={100}
-                height={50}
             />
 
             <Bar
                 data={{
                     labels: labels,
-                    width: 100,
-                    height: 200,
                     datasets: [{
                         label: 'Recovered',
                         backgroundColor: 'rgb(66,168,70)',
                         data: recovered
                     }]
                 }}
-                width={100}
-                height={50}
             />
 
             <Bar
@@ -77,8 +67,6 @@ const Chart = (props) => {
                         data: deaths
                     }]
                 }}
-                width={100}
-                height={50}
             />
         </div>
     );
