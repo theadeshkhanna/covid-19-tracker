@@ -7,6 +7,10 @@ const Chart = (props) => {
         return obj.name;
     });
 
+    const recovered = props.data.map((obj, i) => {
+       return obj.recovered;
+    });
+
     const active = props.data.map((obj, i) => {
        return obj.active;
     });
@@ -43,6 +47,21 @@ const Chart = (props) => {
                         label: 'Active',
                         backgroundColor: 'rgb(9,120,247)',
                         data: active
+                    }]
+                }}
+                width={100}
+                height={50}
+            />
+
+            <Bar
+                data={{
+                    labels: labels,
+                    width: 100,
+                    height: 200,
+                    datasets: [{
+                        label: 'Recovered',
+                        backgroundColor: 'rgb(66,168,70)',
+                        data: confirmed
                     }]
                 }}
                 width={100}

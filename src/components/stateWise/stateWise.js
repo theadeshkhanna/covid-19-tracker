@@ -24,7 +24,8 @@ class StateWise extends Component {
                         "name": o.state,
                         "active": o.active,
                         "confirmed": o.confirmed,
-                        "deaths": o.deaths
+                        "deaths": o.deaths,
+                        "recovered": o.recovered
                     };
                     newData.push(newObj);
                 });

@@ -37,7 +37,8 @@ class DistrictWise extends Component {
                              "name": o,
                              "active": district.active,
                              "confirmed": district.confirmed,
-                             "deaths": district.deceased
+                             "deaths": district.deceased,
+                             "recovered": district.recovered
                          };
                          data.push(newObj);
                      });

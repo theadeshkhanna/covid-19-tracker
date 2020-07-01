@@ -55,7 +55,8 @@ class DistrictDaily extends Component {
                             "name": o.date,
                             "active": o.active,
                             "confirmed": o.confirmed,
-                            "deaths": o.deceased
+                            "deaths": o.deceased,
+                            "recovered": o.recovered
                         };
                         data.push(newObj);
                     });
