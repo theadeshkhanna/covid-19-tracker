@@ -1,5 +1,6 @@
 import React from "react";
 import { Bar } from 'react-chartjs-2';
+import classes from "./charts.css";
 
 const Charts = (props) => {
 
@@ -24,7 +25,7 @@ const Charts = (props) => {
     });
 
     return (
-        <div>
+        <div className={classes.ChartSize}>
             <Bar
                 data={{
                     labels: labels,
