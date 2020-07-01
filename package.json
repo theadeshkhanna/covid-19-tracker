@@ -43,6 +43,7 @@
     "react-chartjs-2": "^2.9.0",
     "react-dev-utils": "^5.0.2",
     "react-dom": "^16.13.1",
+    "react-responsive-carousel": "^3.2.9",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "resolve": "1.6.0",
