@@ -61,7 +61,7 @@ const Chart = (props) => {
                     datasets: [{
                         label: 'Recovered',
                         backgroundColor: 'rgb(66,168,70)',
-                        data: confirmed
+                        data: recovered
                     }]
                 }}
                 width={100}
