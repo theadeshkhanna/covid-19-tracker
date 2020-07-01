@@ -2,7 +2,6 @@ import React, {Component} from "react";
 import classes from "./landing.css";
 import {inject, observer} from "mobx-react";
 import Spinner from "../Spinner/Spinner";
-import {toJS} from "mobx";
 
 @inject("StateStore")
 @observer
@@ -15,13 +14,22 @@ class Landing extends Component {
     render() {
         let pageData = null;
         if (this.props.StateStore.data !== null) {
-            this.props.StateStore.data
+            const data = this.props.StateStore.data
                 .filter(obj => (obj.state === "Total"))
-                // eslint-disable-next-line array-callback-return
                 .map((o, i) => {
-                    console.log(toJS(o));
-                });
-            pageData = <p>hi</p>
+                    return {
+                        "active": o.active,
+                        "recovered": o.recovered,
+                        "confirmed": o.confirmed,
+                        "deaths": o.deaths
+                    };
+                })[0];
+            pageData = <div className={classes.Landing}>
+                <p>{data.confirmed}</p>
+                <p>{data.active}</p>
+                <p>{data.recovered}</p>
+                <p>{data.deaths}</p>
+            </div>
 
         } else {
             pageData = <Spinner />
