@@ -12,6 +12,7 @@ class Layout extends Component {
         return (
             <Fragment>
                 <ul className={classes.Navi}>
+                    <li><Link to="/" className={classes.Tag}>Home</Link></li>
                     <li><Link to="/state-wise" className={classes.Tag}>State-Wise</Link></li>
                     <li><Link to="/district-wise" className={classes.Tag}>District-wise</Link></li>
                     <li><Link to="/district-daily" className={classes.Tag}>District-Daily</Link></li>
