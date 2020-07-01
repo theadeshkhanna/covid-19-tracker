@@ -1,7 +1,7 @@
 import React from "react";
 import { Bar } from 'react-chartjs-2';
 
-const Chart = (props) => {
+const Charts = (props) => {
 
     const labels = props.data.map((obj, i) => {
         return obj.name;
@@ -72,4 +72,4 @@ const Chart = (props) => {
     );
 };
 
-export default Chart;
+export default Charts;

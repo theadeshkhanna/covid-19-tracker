@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import { observer, inject } from "mobx-react";
-import Chart from "../chart/chart";
+import Charts from "../charts/charts";
 import {toJS} from "mobx";
 import Spinner from "../Spinner/Spinner";
 
@@ -42,7 +42,7 @@ class DistrictWise extends Component {
                          };
                          data.push(newObj);
                      });
-                chart_data = <Chart data={data} />
+                chart_data = <Charts data={data} />
             } else {
                 chart_data = <p>Please select a state to begin with</p>
             }

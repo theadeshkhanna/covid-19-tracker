@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import {inject, observer} from "mobx-react";
-import Chart from "../chart/chart";
+import Charts from "../charts/charts";
 import Spinner from "../Spinner/Spinner";
 
 @inject("DistrictDailyStore")
@@ -60,7 +60,7 @@ class DistrictDaily extends Component {
                         };
                         data.push(newObj);
                     });
-                    chart_data = <Chart data={data} />
+                    chart_data = <Charts data={data} />
                 } else {
                     chart_data = <p>Please select a district to begin with</p>
                 }

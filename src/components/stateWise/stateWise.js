@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import Chart from "../chart/chart";
+import Charts from "../charts/charts";
 import {inject, observer} from "mobx-react";
 import Spinner from "../Spinner/Spinner";
 
@@ -29,7 +29,7 @@ class StateWise extends Component {
                     };
                     newData.push(newObj);
                 });
-            chart_data = <Chart data={newData} />
+            chart_data = <Charts data={newData} />
         } else {
             chart_data = <Spinner />
         }
