@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import classes from "./landing.css";
 import {inject, observer} from "mobx-react";
 import Spinner from "../Spinner/Spinner";
+import TotalData from "../TotalData/TotalData";
 
 @inject("StateStore")
 @observer
@@ -25,10 +26,11 @@ class Landing extends Component {
                     };
                 })[0];
             pageData = <div className={classes.Landing}>
-                <p>{data.confirmed}</p>
-                <p>{data.active}</p>
-                <p>{data.recovered}</p>
-                <p>{data.deaths}</p>
+                <TotalData
+                    confirmed={data.confirmed}
+                    active={data.active}
+                    recovered={data.recovered}
+                    deaths={data.deaths}/>
             </div>
 
         } else {
