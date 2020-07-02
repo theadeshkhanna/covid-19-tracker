@@ -9,12 +9,37 @@
     text-transform: uppercase;
 }
 
+.Confirmed::before{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    border-radius: 50%;
+    content: " ";
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    opacity: 10%;
+}
+
 .Confirmed {
     color: rgba(255, 0, 0, 0.5);
 }
 
 .Confirmed span {
     color: red;
+    font-weight: bold;
+}
+
+.Active::before{
+    position: absolute;
+    top: 100px;
+    left: 320px;
+    border-radius: 50%;
+    content: " ";
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    opacity: 10%;
 }
 
 .Active {
@@ -23,6 +48,19 @@
 
 .Active span {
     color: blue;
+    font-weight: bold;
+}
+
+.Recovered::before{
+    position: absolute;
+    top: 100px;
+    left: 530px;
+    border-radius: 50%;
+    content: " ";
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    opacity: 10%;
 }
 
 .Recovered {
@@ -31,6 +69,19 @@
 
 .Recovered span {
     color: green;
+    font-weight: bold;
+}
+
+.Death::before{
+    position: absolute;
+    top: 100px;
+    left: 820px;
+    border-radius: 50%;
+    content: " ";
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    opacity: 10%;
 }
 
 .Death {
@@ -39,4 +90,5 @@
 
 .Death span {
     color: gray;
+    font-weight: bold;
 }
