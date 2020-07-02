@@ -26,6 +26,7 @@ class Landing extends Component {
                     };
                 })[0];
             pageData = <div className={classes.Landing}>
+                <h2>Current Condition</h2>
                 <TotalData
                     confirmed={data.confirmed}
                     active={data.active}
