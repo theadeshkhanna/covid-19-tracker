@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cd2302cf-974d-4e65-ab48-71b979d65891" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/layout/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/layout/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/layout/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/layout/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Navigation/Navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Navigation/Navigation.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -43,6 +42,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/UI" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -84,7 +88,7 @@
       <workItem from="1593610418942" duration="2882000" />
       <workItem from="1593622919424" duration="3958000" />
       <workItem from="1593670915929" duration="2335000" />
-      <workItem from="1593704111660" duration="1572000" />
+      <workItem from="1593704111660" duration="2236000" />
     </task>
     <servers />
   </component>

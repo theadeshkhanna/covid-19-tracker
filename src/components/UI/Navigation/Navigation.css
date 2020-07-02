@@ -1,13 +1,16 @@
 .Navi {
     display: flex;
-    margin: 25px 600px;
 }
 
 .LeftNavi {
+    display: flex;
+    margin-left: 150px;
+    margin-right: 600px;
     float: left;
 }
 
 .RightNavi {
+    display: flex;
     float: right;
 }
 
