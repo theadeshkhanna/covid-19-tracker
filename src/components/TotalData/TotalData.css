@@ -21,10 +21,22 @@
     color: rgba(0, 0, 255, 0.5);
 }
 
+.Active span {
+    color: blue;
+}
+
 .Recovered {
     color: rgba(0, 128, 0, 0.5);
 }
 
+.Recovered span {
+    color: green;
+}
+
 .Death {
     color: rgba(128, 128, 128, 0.5);
+}
+
+.Death span {
+    color: gray;
 }
