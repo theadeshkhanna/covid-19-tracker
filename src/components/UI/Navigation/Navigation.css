@@ -1,22 +1,27 @@
-.Navi {
-    display: flex;
-}
-
 .LeftNavi {
     display: flex;
-    margin-left: 150px;
-    margin-right: 600px;
     float: left;
 }
 
 .RightNavi {
     display: flex;
     float: right;
+    margin-right: 70px;
 }
 
 .Navi li {
     margin: 20px;
     list-style: none;
+    padding: 10px;
+    border: 2px solid transparent;
+}
+
+.Navi li :hover {
+    padding: 10px;
+    margin: -12px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 3px #d5d5d5;
 }
 
 .Tag {
