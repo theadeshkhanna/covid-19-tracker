@@ -3,6 +3,28 @@
 }
 
 .List li {
+    font-size: 35px;
     margin: 40px;
     list-style: none;
+    text-transform: uppercase;
+}
+
+.Confirmed {
+    color: rgba(255, 0, 0, 0.5);
+}
+
+.Confirmed span {
+    color: red;
+}
+
+.Active {
+    color: rgba(0, 0, 255, 0.5);
+}
+
+.Recovered {
+    color: rgba(0, 128, 0, 0.5);
+}
+
+.Death {
+    color: rgba(128, 128, 128, 0.5);
 }

@@ -5,10 +5,10 @@ const TotalData = (props) => {
     return (
         <div>
             <ul className={classes.List}>
-                <li><p>confirmed</p> {props.confirmed}</li>
-                <li><p>active</p> {props.active}</li>
-                <li><p>recovered</p> {props.recovered}</li>
-                <li><p>deaths</p> {props.deaths}</li>
+                <li className={classes.Confirmed}><p>confirmed</p> <span>{props.confirmed}</span></li>
+                <li className={classes.Active}><p>active</p> <span>{props.active}</span></li>
+                <li className={classes.Recovered}><p>recovered</p> <span>{props.recovered}</span></li>
+                <li className={classes.Death}><p>deaths</p> <span>{props.deaths}</span></li>
             </ul>
         </div>
     );
