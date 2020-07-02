@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import Charts from "../charts/charts";
 import {inject, observer} from "mobx-react";
-import Spinner from "../Spinner/Spinner";
+import Spinner from "../UI/Spinner/Spinner";
 
 @inject("StateStore")
 @observer

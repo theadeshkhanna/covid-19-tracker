@@ -1,0 +1,24 @@
+.Navi {
+    display: flex;
+    margin: 25px 600px;
+}
+
+.LeftNavi {
+    float: left;
+}
+
+.RightNavi {
+    float: right;
+}
+
+.Navi li {
+    margin: 20px;
+    list-style: none;
+}
+
+.Tag {
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+}

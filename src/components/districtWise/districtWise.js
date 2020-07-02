@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import { observer, inject } from "mobx-react";
 import Charts from "../charts/charts";
 import {toJS} from "mobx";
-import Spinner from "../Spinner/Spinner";
+import Spinner from "../UI/Spinner/Spinner";
 
 @inject("DistrictStore")
 @observer
