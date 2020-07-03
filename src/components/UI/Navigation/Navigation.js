@@ -7,7 +7,7 @@ const Navigation = () => {
         <div className={classes.Navi}>
             <ul className={classes.LeftNavi}>
                 <li><Link to="/" className={classes.Tag}>Home</Link></li>
-                <li><Link to="/" className={classes.Tag}>Know The Developer</Link></li>
+                <li><Link to="/KnowTheDeveloper" className={classes.Tag}>Know The Developer</Link></li>
             </ul>
             <ul className={classes.RightNavi}>
                 <li><Link to="/state-wise" className={classes.Tag}>State-Wise</Link></li>

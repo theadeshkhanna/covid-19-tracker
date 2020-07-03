@@ -5,6 +5,7 @@ import StateWise from "../../components/stateWise/stateWise";
 import DistrictWise from "../../components/districtWise/districtWise";
 import DistrictDaily from "../../components/districtDaily/districtDaily";
 import Navigation from "../../components/UI/Navigation/Navigation";
+import KnowTheDeveloper from "../../components/KnowTheDeveloper/KnowTheDeveloper";
 
 class Layout extends Component {
     render() {
@@ -13,6 +14,7 @@ class Layout extends Component {
                 <Navigation />
                 <Switch>
                     <Route path="/" exact component={Landing} />
+                    <Route path="/KnowTheDeveloper" exact component={KnowTheDeveloper} />
                     <Route path="/state-wise" exact component={StateWise} />
                     <Route path="/district-wise" exact component={DistrictWise} />
                     <Route path="/district-daily" exact component={DistrictDaily} />

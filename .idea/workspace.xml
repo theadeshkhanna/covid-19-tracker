@@ -32,7 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../movie-review" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -88,6 +88,7 @@
       <workItem from="1593704111660" duration="6583000" />
       <workItem from="1593756908795" duration="598000" />
       <workItem from="1593758679738" duration="1594000" />
+      <workItem from="1593785891288" duration="5299000" />
     </task>
     <servers />
   </component>
@@ -99,14 +100,14 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="730" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1593602493011" />
-    <state x="165" y="96" width="1655" height="884" key="DiffContextDialog" timestamp="1593760274465">
+    <state x="165" y="96" width="1655" height="884" key="DiffContextDialog" timestamp="1593791684575">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="165" y="96" width="1655" height="884" key="DiffContextDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1593760274465" />
-    <state x="779" y="297" width="424" height="482" key="FileChooserDialogImpl" timestamp="1593757746833">
+    <state x="165" y="96" width="1655" height="884" key="DiffContextDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1593791684575" />
+    <state x="779" y="297" width="424" height="482" key="FileChooserDialogImpl" timestamp="1593791683390">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="779" y="297" width="424" height="482" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1593757746833" />
+    <state x="779" y="297" width="424" height="482" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1593791683390" />
     <state x="776" y="229" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592461742022">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
