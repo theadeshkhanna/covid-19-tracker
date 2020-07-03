@@ -4,7 +4,7 @@ import CountUp from 'react-countup';
 
 const TotalData = (props) => {
     return (
-        <div>
+        <div className={classes.Head}>
             <ul className={classes.List}>
                 <li className={classes.Confirmed}>
                     <p>confirmed</p>
