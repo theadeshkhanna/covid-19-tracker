@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="cd2302cf-974d-4e65-ab48-71b979d65891" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Navigation/Navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Navigation/Navigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/charts/charts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/charts/charts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/districtDaily/districtDaily.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/districtDaily/districtDaily.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/districtDaily/districtDaily.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/districtDaily/districtDaily.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/districtWise/districtWise.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/districtWise/districtWise.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +100,7 @@
       <workItem from="1593785891288" duration="5299000" />
       <workItem from="1593792561767" duration="620000" />
       <workItem from="1594047201102" duration="626000" />
-      <workItem from="1594050952699" duration="3992000" />
+      <workItem from="1594050952699" duration="4681000" />
     </task>
     <servers />
   </component>

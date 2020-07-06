@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import {inject, observer} from "mobx-react";
 import Charts from "../charts/charts";
 import Spinner from "../UI/Spinner/Spinner";
+import classes from "./districtDaily.css";
 
 @inject("DistrictDailyStore")
 @observer
@@ -36,7 +37,7 @@ class DistrictDaily extends Component {
         if (this.props.DistrictDailyStore.data !== null) {
             if (this.state.selectedState !== null) {
                     district_dropdown = (
-                        <select onChange={this.handleDistrictDropDownChange}>
+                        <select onChange={this.handleDistrictDropDownChange} className={classes.DistrictContent}>
                             {
                                 Object.keys(this.props.DistrictDailyStore.data.districtsDaily[this.state.selectedState])
                                     .filter(obj => obj !== "State Unassigned")
@@ -62,15 +63,15 @@ class DistrictDaily extends Component {
                     });
                     chart_data = <Charts data={data} />
                 } else {
-                    chart_data = <p>Please select a district to begin with</p>
+                    chart_data = <p className={classes.Para}>Please select a district to begin with</p>
                 }
             }
              else {
-                chart_data = <p>Please select a state to begin with</p>
+                chart_data = <p className={classes.Para}>Please select a state to begin with</p>
             }
             page_data = (
                 <div>
-                    <select onChange={this.handleStateDropDownChange}>
+                    <select onChange={this.handleStateDropDownChange} className={classes.StateContent}>
                         {
                             Object.keys(this.props.DistrictDailyStore.data.districtsDaily)
                                 .filter(obj => obj !== "State Unassigned")
