@@ -3,6 +3,7 @@ import { observer, inject } from "mobx-react";
 import Charts from "../charts/charts";
 import {toJS} from "mobx";
 import Spinner from "../UI/Spinner/Spinner";
+import classes from "./districtWise.css";
 
 @inject("DistrictStore")
 @observer
@@ -44,11 +45,11 @@ class DistrictWise extends Component {
                      });
                 chart_data = <Charts data={data} />
             } else {
-                chart_data = <p>Please select a state to begin with</p>
+                chart_data = <p className={classes.Para}>Please select a state to begin with</p>
             }
             page_data = (
                 <div>
-                    <select onChange={this.handleDropDownChange}>
+                    <select onChange={this.handleDropDownChange} className={classes.Content}>
                         {
                             Object.keys(this.props.DistrictStore.data)
                                 .filter(obj => obj !== "State Unassigned")

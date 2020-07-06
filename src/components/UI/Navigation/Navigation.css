@@ -1,3 +1,7 @@
+.Navi {
+    margin-top: -30px;
+}
+
 .LeftNavi {
     display: flex;
     float: left;
