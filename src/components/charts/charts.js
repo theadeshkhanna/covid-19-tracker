@@ -26,56 +26,58 @@ const Charts = (props) => {
     });
 
     return (
-        <Carousel>
-            <div className={classes.ChartSize}>
-                <Bar
-                    data={{
-                        labels: labels,
-                        datasets: [{
-                            label: 'Confirmed',
-                            backgroundColor: 'rgb(246,64,77)',
-                            data: confirmed
-                        }]
-                    }}
-                />
-            </div>
+        <div className={classes.Carousel}>
+            <Carousel>
                 <div className={classes.ChartSize}>
-                <Bar
-                    data={{
-                        labels: labels,
-                        datasets: [{
-                            label: 'Active',
-                            backgroundColor: 'rgb(9,120,247)',
-                            data: active
-                        }]
-                    }}
-                />
+                    <Bar
+                        data={{
+                            labels: labels,
+                            datasets: [{
+                                label: 'Confirmed',
+                                backgroundColor: 'rgb(246,64,77)',
+                                data: confirmed
+                            }]
+                        }}
+                    />
                 </div>
-                    <div className={classes.ChartSize}>
-                <Bar
-                    data={{
-                        labels: labels,
-                        datasets: [{
-                            label: 'Recovered',
-                            backgroundColor: 'rgb(66,168,70)',
-                            data: recovered
-                        }]
-                    }}
-                />
-                    </div>
-                        <div className={classes.ChartSize}>
-                <Bar
-                    data={{
-                        labels: labels,
-                        datasets: [{
-                            label: 'Deaths',
-                            backgroundColor: 'rgb(154,160,165)',
-                            data: deaths
-                        }]
-                    }}
-                />
-            </div>
-        </Carousel>
+                <div className={classes.ChartSize}>
+                    <Bar
+                        data={{
+                            labels: labels,
+                            datasets: [{
+                                label: 'Active',
+                                backgroundColor: 'rgb(9,120,247)',
+                                data: active
+                            }]
+                        }}
+                    />
+                </div>
+                <div className={classes.ChartSize}>
+                    <Bar
+                        data={{
+                            labels: labels,
+                            datasets: [{
+                                label: 'Recovered',
+                                backgroundColor: 'rgb(66,168,70)',
+                                data: recovered
+                            }]
+                        }}
+                    />
+                </div>
+                <div className={classes.ChartSize}>
+                    <Bar
+                        data={{
+                            labels: labels,
+                            datasets: [{
+                                label: 'Deaths',
+                                backgroundColor: 'rgb(154,160,165)',
+                                data: deaths
+                            }]
+                        }}
+                    />
+                </div>
+            </Carousel>
+        </div>
     );
 };
 

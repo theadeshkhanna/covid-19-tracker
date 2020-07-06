@@ -1,4 +1,12 @@
 .ChartSize {
-    margin: 100px auto;
-    width: 65%;
+    margin: 20px auto;
+    width: 70%;
+}
+
+.Carousel {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
 }
