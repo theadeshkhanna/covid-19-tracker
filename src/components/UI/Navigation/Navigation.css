@@ -1,36 +1,53 @@
-.Navi {
-    margin-top: -20px;
+.Navigation {
+    margin: -20px;
+    background-color: #FA9F42;
+    width: 101vw;
+}
+
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
 }
 
 .LeftNavi {
     display: flex;
-    float: left;
+}
+
+.LeftNavi li {
+    padding-top: 10px;
+    list-style: none;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.LeftNavi li a{
+    text-decoration: none;
+    transition: all .2s;
+    color: black;
+}
+
+.LeftNavi li a:hover {
+    color: red;
 }
 
 .RightNavi {
     display: flex;
-    float: right;
-    margin-right: 70px;
 }
 
-.Navi li {
-    margin: 20px;
+.RightNavi li {
+    padding-top: 10px;
     list-style: none;
-    padding: 10px;
-    border: 2px solid transparent;
+    margin: 20px;
+    font-size: 20px;
 }
 
-.Navi li :hover {
-    padding: 10px;
-    margin: -12px;
-    border: 2px solid gray;
-    border-radius: 10px;
-    box-shadow: 0 0 10px 3px #d5d5d5;
-}
-
-.Tag {
+.RightNavi li a{
     text-decoration: none;
-    font-size: 18px;
-    text-transform: uppercase;
+    transition: all .2s;
     color: black;
+}
+
+.RightNavi li a:hover {
+    color: red;
 }
