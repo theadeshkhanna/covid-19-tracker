@@ -27,7 +27,12 @@ const Charts = (props) => {
 
     return (
         <div className={classes.Carousel}>
-            <Carousel pagination={false} showArrows={true} enableAutoPlay={true} focusOnSelect={false}>
+            <Carousel
+                pagination={false}
+                showArrows={true}
+                enableAutoPlay={true}
+                autoPlaySpeed={3000}
+                focusOnSelect={false}>
                 <div className={classes.ChartSize}>
                     <Bar
                         data={{
