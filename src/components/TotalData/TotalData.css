@@ -1,16 +1,12 @@
 .Head {
     margin-top: 100px;
     padding: 0 40px 40px 0;
-}
-
-.List {
     display: flex;
+    justify-content: space-evenly;
 }
 
-.List li {
-    font-size: 35px;
-    margin: 40px;
-    list-style: none;
+.Individual {
+    font-size: 30px;
     text-transform: uppercase;
 }
 
@@ -19,6 +15,7 @@
 }
 
 .ConfirmedData {
+    margin-top: -20px;
     color: #721817;
     font-weight: bold;
 }
@@ -42,10 +39,10 @@
 }
 
 .Death {
-    color: rgba(224, 224, 226, 0.5);
+    color: rgba(158, 158, 161, 0.5);
 }
 
 .DeathData {
-    color: #E0E0E2;
+    color: #9E9EA1;
     font-weight: bold;
 }
