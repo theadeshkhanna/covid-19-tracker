@@ -5,21 +5,21 @@ import CountUp from 'react-countup';
 const TotalData = (props) => {
     return (
         <div className={classes.Head}>
-            <div className={classes.Individual}>
+            <div className={classes.IndividualConfirmed}>
                 <p className={classes.Confirmed}>confirmed</p>
                 <CountUp className={classes.ConfirmedData}
                          start={0}
                          separator=","
                          end={props.confirmed}/>
             </div>
-            <div className={classes.Individual}>
+            <div className={classes.IndividualActive}>
                 <p className={classes.Active}>active</p>
                 <CountUp className={classes.ActiveData}
                          start={0}
                          separator=","
                          end={props.active} />
             </div>
-            <div className={classes.Individual}>
+            <div className={classes.IndividualRecovered}>
                 <p className={classes.Recovered}>recovered</p>
                 <CountUp className={classes.RecoveredData}
                          start={0}

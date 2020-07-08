@@ -5,16 +5,30 @@
     justify-content: space-evenly;
 }
 
-.Individual {
+.IndividualConfirmed {
     text-transform: uppercase;
     background-color: rgba(255, 0, 0, 0.1);
     border-radius: 20px;
     padding: 18px 25px;
 }
 
+.IndividualActive {
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 255, 0.1);
+    border-radius: 20px;
+    padding: 18px 25px;
+}
+
+.IndividualRecovered {
+    text-transform: uppercase;
+    background-color: rgba(0, 128, 0, 0.1);
+    border-radius: 20px;
+    padding: 18px 25px;
+}
+
 .IndividualDeath {
     text-transform: uppercase;
-    background-color: rgba(255, 0, 0, 0.1);
+    background-color: rgba(128, 128, 128, 0.1);
     border-radius: 20px;
     padding: 26px 33px;
 }
@@ -28,7 +42,7 @@
 
 .ConfirmedData {
     color: #721817;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bold;
 }
 
@@ -41,7 +55,7 @@
 
 .ActiveData {
     color: #2B4162;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bold;
 }
 
@@ -54,7 +68,7 @@
 
 .RecoveredData {
     color: #0B6E4F;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bold;
 }
 
@@ -67,6 +81,6 @@
 
 .DeathData {
     color: #9E9EA1;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bold;
 }
