@@ -26,7 +26,7 @@ const TotalData = (props) => {
                          separator=","
                          end={props.recovered} />
             </div>
-            <div className={classes.Individual}>
+            <div className={classes.IndividualDeath}>
                 <p className={classes.Death}>deaths</p>
                 <CountUp className={classes.DeathData}
                          start={0}
