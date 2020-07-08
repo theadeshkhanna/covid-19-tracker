@@ -10,6 +10,8 @@
     background-color: rgba(255, 0, 0, 0.1);
     border-radius: 20px;
     padding: 18px 25px;
+    width: 160px;
+    height: 120px;
 }
 
 .IndividualActive {
@@ -17,6 +19,8 @@
     background-color: rgba(0, 0, 255, 0.1);
     border-radius: 20px;
     padding: 18px 25px;
+    width: 160px;
+    height: 120px;
 }
 
 .IndividualRecovered {
@@ -24,6 +28,8 @@
     background-color: rgba(0, 128, 0, 0.1);
     border-radius: 20px;
     padding: 18px 25px;
+    width: 160px;
+    height: 120px;
 }
 
 .IndividualDeath {
@@ -31,6 +37,8 @@
     background-color: rgba(128, 128, 128, 0.1);
     border-radius: 20px;
     padding: 26px 33px;
+    width: 152px;
+    height: 112px;
 }
 
 .Confirmed {
