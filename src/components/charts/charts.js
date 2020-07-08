@@ -39,7 +39,7 @@ const Charts = (props) => {
                             labels: labels,
                             datasets: [{
                                 label: 'Confirmed',
-                                backgroundColor: 'rgb(246,64,77)',
+                                backgroundColor: '#721817',
                                 data: confirmed
                             }]
                         }}
@@ -51,7 +51,7 @@ const Charts = (props) => {
                             labels: labels,
                             datasets: [{
                                 label: 'Active',
-                                backgroundColor: 'rgb(9,120,247)',
+                                backgroundColor: '#2B4162',
                                 data: active
                             }]
                         }}
@@ -63,7 +63,7 @@ const Charts = (props) => {
                             labels: labels,
                             datasets: [{
                                 label: 'Recovered',
-                                backgroundColor: 'rgb(66,168,70)',
+                                backgroundColor: '#0B6E4F',
                                 data: recovered
                             }]
                         }}
@@ -75,7 +75,7 @@ const Charts = (props) => {
                             labels: labels,
                             datasets: [{
                                 label: 'Deaths',
-                                backgroundColor: 'rgb(154,160,165)',
+                                backgroundColor: '#E0E0E2',
                                 data: deaths
                             }]
                         }}
