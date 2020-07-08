@@ -15,37 +15,37 @@
 }
 
 .Confirmed {
-    color: rgba(255, 0, 0, 0.5);
+    color: rgba(114, 24, 23, 0.5);
 }
 
 .ConfirmedData {
-    color: red;
+    color: #721817;
     font-weight: bold;
 }
 
 .Active {
-    color: rgba(0, 0, 255, 0.5);
+    color: rgba(43, 65, 98, 0.5);
 }
 
 .ActiveData {
-    color: blue;
+    color: #2B4162;
     font-weight: bold;
 }
 
 .Recovered {
-    color: rgba(0, 128, 0, 0.5);
+    color: rgba(11, 110, 79, 0.5);
 }
 
 .RecoveredData {
-    color: green;
+    color: #0B6E4F;
     font-weight: bold;
 }
 
 .Death {
-    color: rgba(128, 128, 128, 0.5);
+    color: rgba(224, 224, 226, 0.5);
 }
 
 .DeathData {
-    color: gray;
+    color: #E0E0E2;
     font-weight: bold;
 }
