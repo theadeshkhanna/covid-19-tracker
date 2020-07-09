@@ -14,6 +14,7 @@ class Landing extends Component {
 
     render() {
         let pageData = null;
+        let heads = ["Stay Home", "Maintain Social Distance", "Wear Mask", "Be Positive", "Use Sanitizer"];
         if (this.props.StateStore.data !== null) {
             const data = this.props.StateStore.data
                 .filter(obj => (obj.state === "Total"))
@@ -26,7 +27,13 @@ class Landing extends Component {
                     };
                 })[0];
             pageData = <div className={classes.Landing}>
-                <h2>Currently, </h2>
+                {
+                    heads.map((string, i) => {
+                        return (
+                            <h2>{string}</h2>
+                        );
+                    })
+                }
                 <TotalData
                     confirmed={data.confirmed}
                     active={data.active}
