@@ -13,7 +13,7 @@ class Layout extends Component {
         return (
             <Fragment>
                 <Navigation />
-                <div>
+                <div className={classes.All}>
                     <Switch>
                         <Route path="/KnowTheDeveloper" exact component={KnowTheDeveloper} />
                         <Route path="/state-wise" exact component={StateWise} />
@@ -22,21 +22,21 @@ class Layout extends Component {
                         <Route path="/" exact component={Landing} />
                     </Switch>
                     <div>
-                        <img src={require("../../assets/covid.svg")} alt="covid" className={classes.Covid}/>
-                        <img src={require("../../assets/hand soap.svg")} alt="hand soap" className={classes.HandSoap}/>
-                        <img src={require("../../assets/hand wash.svg")} alt="hand wash" className={classes.HandWash}/>
-                        <img src={require("../../assets/no hand shake.svg")} alt="hand shake" className={classes.HandShake}/>
-                        <img src={require("../../assets/mask.svg")} alt="mask" className={classes.Mask}/>
-                        <img src={require("../../assets/covid.svg")} alt="covid" className={classes.Covid}/>
-                        <img src={require("../../assets/hand soap.svg")} alt="hand soap" className={classes.HandSoap}/>
-                        <img src={require("../../assets/hand wash.svg")} alt="hand wash" className={classes.HandWash}/>
-                        <img src={require("../../assets/no hand shake.svg")} alt="hand shake" className={classes.HandShake}/>
-                        <img src={require("../../assets/mask.svg")} alt="mask" className={classes.Mask}/>
-                        <img src={require("../../assets/covid.svg")} alt="covid" className={classes.Covid}/>
-                        <img src={require("../../assets/hand soap.svg")} alt="hand soap" className={classes.HandSoap}/>
-                        <img src={require("../../assets/hand wash.svg")} alt="hand wash" className={classes.HandWash}/>
-                        <img src={require("../../assets/no hand shake.svg")} alt="hand shake" className={classes.HandShake}/>
-                        <img src={require("../../assets/mask.svg")} alt="mask" className={classes.Mask}/>
+                        <img src={require("../../assets/covid.svg")} alt="covid" className={classes.Covid1}/>
+                        <img src={require("../../assets/hand soap.svg")} alt="hand soap" className={classes.HandSoap1}/>
+                        <img src={require("../../assets/hand wash.svg")} alt="hand wash" className={classes.HandWash1}/>
+                        <img src={require("../../assets/no hand shake.svg")} alt="hand shake" className={classes.HandShake1}/>
+                        <img src={require("../../assets/mask.svg")} alt="mask" className={classes.Mask1}/>
+                        <img src={require("../../assets/covid.svg")} alt="covid" className={classes.Covid2}/>
+                        <img src={require("../../assets/hand soap.svg")} alt="hand soap" className={classes.HandSoap2}/>
+                        <img src={require("../../assets/hand wash.svg")} alt="hand wash" className={classes.HandWash2}/>
+                        <img src={require("../../assets/no hand shake.svg")} alt="hand shake" className={classes.HandShake2}/>
+                        <img src={require("../../assets/mask.svg")} alt="mask" className={classes.Mask2}/>
+                        <img src={require("../../assets/covid.svg")} alt="covid" className={classes.Covid3}/>
+                        <img src={require("../../assets/hand soap.svg")} alt="hand soap" className={classes.HandSoap3}/>
+                        <img src={require("../../assets/hand wash.svg")} alt="hand wash" className={classes.HandWash3}/>
+                        <img src={require("../../assets/no hand shake.svg")} alt="hand shake" className={classes.HandShake3}/>
+                        <img src={require("../../assets/mask.svg")} alt="mask" className={classes.Mask3}/>
                     </div>
                 </div>
             </Fragment>

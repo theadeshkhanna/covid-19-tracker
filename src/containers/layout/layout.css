@@ -1,0 +1,25 @@
+.All {
+    margin-top: 20px;
+}
+
+.Covid {
+   position: absolute;
+   top: 100px;
+   width: 5%;
+}
+
+.HandSoap {
+    width: 5%;
+}
+
+.HandWash {
+    width: 5%;
+}
+
+.HandShake {
+    width: 5%;
+}
+
+.Mask {
+    width: 5%;
+}
