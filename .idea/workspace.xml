@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd2302cf-974d-4e65-ab48-71b979d65891" name="Default Changelist" comment="" />
+    <list default="true" id="cd2302cf-974d-4e65-ab48-71b979d65891" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dlp-be-refactored" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -119,6 +121,7 @@
       <workItem from="1594190536930" duration="3369000" />
       <workItem from="1594204325414" duration="16000" />
       <workItem from="1594218726387" duration="3753000" />
+      <workItem from="1594278562196" duration="3062000" />
     </task>
     <servers />
   </component>
@@ -142,14 +145,18 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="730" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1593602493011" />
+    <state x="535" y="83" width="912" height="909" key="CommitChangelistDialog2" timestamp="1594278596727">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="535" y="83" width="912" height="909" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1594278596727" />
     <state x="165" y="96" width="1655" height="884" key="DiffContextDialog" timestamp="1594224087722">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="165" y="96" width="1655" height="884" key="DiffContextDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1594224087722" />
-    <state x="779" y="297" width="424" height="482" key="FileChooserDialogImpl" timestamp="1594204342859">
+    <state x="779" y="297" width="424" height="482" key="FileChooserDialogImpl" timestamp="1594278713445">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="779" y="297" width="424" height="482" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1594204342859" />
+    <state x="779" y="297" width="424" height="482" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1594278713445" />
     <state x="776" y="229" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592461742022">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
