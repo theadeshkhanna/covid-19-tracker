@@ -7,21 +7,21 @@ const Navigation = () => {
         <div className={classes.Navigation}>
             <nav className={classes.Nav}>
                 <ul className={classes.LeftNavi}>
-                    <li><NavLink to="/" activeStyle={{
+                    <li><NavLink exact to="/" activeStyle={{
                         color:  "#0B6E4F"
                     }}>Home</NavLink></li>
-                    <li><NavLink to="/KnowTheDeveloper" activeStyle={{
+                    <li><NavLink exact to="/KnowTheDeveloper" activeStyle={{
                         color:  "#0B6E4F"
                     }}>Know The Developer</NavLink></li>
                 </ul>
                 <ul className={classes.RightNavi}>
-                    <li><NavLink to="/state-wise" activeStyle={{
+                    <li><NavLink exact to="/state-wise" activeStyle={{
                         color:  "#0B6E4F"
                     }}>State-Wise</NavLink></li>
-                    <li><NavLink to="/district-wise" activeStyle={{
+                    <li><NavLink exact to="/district-wise" activeStyle={{
                         color:  "#0B6E4F"
                     }}>District-Wise</NavLink></li>
-                    <li><NavLink to="/district-daily" activeStyle={{
+                    <li><NavLink exact to="/district-daily" activeStyle={{
                         color:  "#0B6E4F"
                     }}>District-Daily</NavLink></li>
                 </ul>
