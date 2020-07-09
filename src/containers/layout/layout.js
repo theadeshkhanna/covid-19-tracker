@@ -32,10 +32,7 @@ class Layout extends Component {
                         <img src={require("../../assets/hand wash.svg")} alt="hand wash" className={classes.HandWash2}/>
                         <img src={require("../../assets/no hand shake.svg")} alt="hand shake" className={classes.HandShake2}/>
                         <img src={require("../../assets/mask.svg")} alt="mask" className={classes.Mask2}/>
-                        <img src={require("../../assets/covid.svg")} alt="covid" className={classes.Covid3}/>
-                        <img src={require("../../assets/hand soap.svg")} alt="hand soap" className={classes.HandSoap3}/>
                         <img src={require("../../assets/hand wash.svg")} alt="hand wash" className={classes.HandWash3}/>
-                        <img src={require("../../assets/no hand shake.svg")} alt="hand shake" className={classes.HandShake3}/>
                         <img src={require("../../assets/mask.svg")} alt="mask" className={classes.Mask3}/>
                     </div>
                 </div>
