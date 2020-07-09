@@ -13,11 +13,11 @@ class Layout extends Component {
             <Fragment>
                 <Navigation />
                 <Switch>
-                    <Route path="/" exact component={Landing} />
                     <Route path="/KnowTheDeveloper" exact component={KnowTheDeveloper} />
                     <Route path="/state-wise" exact component={StateWise} />
                     <Route path="/district-wise" exact component={DistrictWise} />
                     <Route path="/district-daily" exact component={DistrictDaily} />
+                    <Route path="/" exact component={Landing} />
                 </Switch>
             </Fragment>
         );

@@ -1,19 +1,29 @@
 import React from "react";
 import classes from "./Navigation.css";
-import {Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 const Navigation = () => {
     return (
         <div className={classes.Navigation}>
             <nav className={classes.Nav}>
                 <ul className={classes.LeftNavi}>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/KnowTheDeveloper">Know The Developer</Link></li>
+                    <li><NavLink to="/" activeStyle={{
+                        color:  "#0B6E4F"
+                    }}>Home</NavLink></li>
+                    <li><NavLink to="/KnowTheDeveloper" activeStyle={{
+                        color:  "#0B6E4F"
+                    }}>Know The Developer</NavLink></li>
                 </ul>
                 <ul className={classes.RightNavi}>
-                    <li><Link to="/state-wise">State-Wise</Link></li>
-                    <li><Link to="/district-wise">District-Wise</Link></li>
-                    <li><Link to="/district-daily">District-Daily</Link></li>
+                    <li><NavLink to="/state-wise" activeStyle={{
+                        color:  "#0B6E4F"
+                    }}>State-Wise</NavLink></li>
+                    <li><NavLink to="/district-wise" activeStyle={{
+                        color:  "#0B6E4F"
+                    }}>District-Wise</NavLink></li>
+                    <li><NavLink to="/district-daily" activeStyle={{
+                        color:  "#0B6E4F"
+                    }}>District-Daily</NavLink></li>
                 </ul>
             </nav>
         </div>
