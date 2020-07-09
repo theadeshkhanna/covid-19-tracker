@@ -10,7 +10,7 @@
     position: absolute;
     top: 150px;
     left: 70px;
-    width: 5%;
+    width: 4%;
 }
 
 .HandSoap1 {
@@ -21,7 +21,7 @@
     position: absolute;
     top: 220px;
     left: 300px;
-    width: 5%;
+    width: 4%;
 }
 
 .HandWash1 {
@@ -32,7 +32,7 @@
     position: absolute;
     top: 100px;
     left: 500px;
-    width: 5%;
+    width: 4%;
 }
 
 .HandShake1 {
@@ -43,7 +43,7 @@
     position: absolute;
     top: 100px;
     left: 1750px;
-    width: 5%;
+    width: 4%;
 }
 
 .Mask1 {
@@ -54,7 +54,7 @@
     position: absolute;
     top: 200px;
     left: 1250px;
-    width: 5%;
+    width: 4%;
 }
 
 .Covid2 {
@@ -65,7 +65,7 @@
     position: absolute;
     top: 400px;
     left: 1600px;
-    width: 5%;
+    width: 4%;
 }
 
 .HandSoap2 {
@@ -76,7 +76,7 @@
     position: absolute;
     top: 600px;
     left: 1750px;
-    width: 5%;
+    width: 4%;
 }
 
 .HandWash2 {
@@ -87,7 +87,7 @@
     position: absolute;
     top: 100px;
     left: 1500px;
-    width: 5%;
+    width: 4%;
 }
 
 .HandShake2 {
@@ -98,7 +98,7 @@
     position: absolute;
     top: 350px;
     left: 20px;
-    width: 5%;
+    width: 4%;
 }
 
 .Mask2 {
@@ -109,7 +109,7 @@
     position: absolute;
     top: 550px;
     left: 100px;
-    width: 5%;
+    width: 4%;
 }
 
 .HandWash3 {
@@ -120,7 +120,7 @@
     position: absolute;
     top: 750px;
     left: 120px;
-    width: 5%;
+    width: 4%;
 }
 
 .Mask3 {
@@ -131,7 +131,7 @@
     position: absolute;
     top: 700px;
     left: 1650px;
-    width: 5%;
+    width: 4%;
 }
 
 @keyframes floating {
