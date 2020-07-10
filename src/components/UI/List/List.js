@@ -3,8 +3,12 @@ import classes from "./List.css";
 
 const List = () => {
     return (
-        <ul>
-            <li></li>
+        <ul className={classes.List}>
+            <li>Stay Home</li>
+            <li>Maintain Social Distance</li>
+            <li>Wear Mask</li>
+            <li>Be Positive</li>
+            <li>Use Sanitizer</li>
         </ul>
     );
 }

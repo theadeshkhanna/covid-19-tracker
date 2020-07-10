@@ -3,6 +3,7 @@ import classes from "./landing.css";
 import {inject, observer} from "mobx-react";
 import Spinner from "../UI/Spinner/Spinner";
 import TotalData from "../TotalData/TotalData";
+import List from "../UI/List/List";
 
 @inject("StateStore")
 @observer
@@ -26,6 +27,7 @@ class Landing extends Component {
                     };
                 })[0];
             pageData = <div className={classes.Landing}>
+                <List />
                 <TotalData
                     confirmed={data.confirmed}
                     active={data.active}
