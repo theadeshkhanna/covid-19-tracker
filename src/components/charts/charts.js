@@ -41,6 +41,35 @@ const Charts = (props) => {
                                 data: confirmed
                             }]
                         }}
+                        options={{
+                            legend: {
+                                display: false
+                            },
+                            title: {
+                                display: true,
+                                fontColor: 'black',
+                                text: 'CONFIRMED',
+                                fontSize: '22',
+                                fontFamily: "'Roboto Slab', serif"
+                            }     ,
+                            scales: {
+                                yAxes: [{
+                                    ticks: {
+                                        beginAtZero:true,
+                                        fontColor: 'black',
+                                        fontSize: '13',
+                                        fontFamily: "'Roboto Slab', serif"
+                                    },
+                                }],
+                                xAxes: [{
+                                    ticks: {
+                                        fontColor: 'black',
+                                        fontSize: '13',
+                                        fontFamily: "'Roboto Slab', serif"
+                                    },
+                                }]
+                            }
+                        }}
                     />
                 </div>
                 <div className={classes.ChartSize}>
@@ -52,6 +81,35 @@ const Charts = (props) => {
                                 backgroundColor: '#2B4162',
                                 data: active
                             }]
+                        }}
+                        options={{
+                            legend: {
+                                display: false
+                            },
+                            title: {
+                                display: true,
+                                fontColor: 'black',
+                                text: 'ACTIVE',
+                                fontSize: '22',
+                                fontFamily: "'Roboto Slab', serif"
+                            }     ,
+                            scales: {
+                                yAxes: [{
+                                    ticks: {
+                                        beginAtZero:true,
+                                        fontColor: 'black',
+                                        fontSize: '13',
+                                        fontFamily: "'Roboto Slab', serif"
+                                    },
+                                }],
+                                xAxes: [{
+                                    ticks: {
+                                        fontColor: 'black',
+                                        fontSize: '13',
+                                        fontFamily: "'Roboto Slab', serif"
+                                    },
+                                }]
+                            }
                         }}
                     />
                 </div>
@@ -65,6 +123,35 @@ const Charts = (props) => {
                                 data: recovered
                             }]
                         }}
+                        options={{
+                            legend: {
+                                display: false
+                            },
+                            title: {
+                                display: true,
+                                fontColor: 'black',
+                                text: 'RECOVERED',
+                                fontSize: '22',
+                                fontFamily: "'Roboto Slab', serif"
+                            }     ,
+                            scales: {
+                                yAxes: [{
+                                    ticks: {
+                                        beginAtZero:true,
+                                        fontColor: 'black',
+                                        fontSize: '13',
+                                        fontFamily: "'Roboto Slab', serif"
+                                    },
+                                }],
+                                xAxes: [{
+                                    ticks: {
+                                        fontColor: 'black',
+                                        fontSize: '13',
+                                        fontFamily: "'Roboto Slab', serif"
+                                    },
+                                }]
+                            }
+                        }}
                     />
                 </div>
                 <div className={classes.ChartSize}>
@@ -76,6 +163,35 @@ const Charts = (props) => {
                                 backgroundColor: '#E0E0E2',
                                 data: deaths
                             }]
+                        }}
+                        options={{
+                            legend: {
+                                display: false
+                            },
+                            title: {
+                                display: true,
+                                fontColor: 'black',
+                                text: 'DEATHS',
+                                fontSize: '22',
+                                fontFamily: "'Roboto Slab', serif"
+                            }     ,
+                            scales: {
+                                yAxes: [{
+                                    ticks: {
+                                        beginAtZero:true,
+                                        fontColor: 'black',
+                                        fontSize: '13',
+                                        fontFamily: "'Roboto Slab', serif"
+                                    },
+                                }],
+                                xAxes: [{
+                                    ticks: {
+                                        fontColor: 'black',
+                                        fontSize: '13',
+                                        fontFamily: "'Roboto Slab', serif"
+                                    },
+                                }]
+                            }
                         }}
                     />
                 </div>
