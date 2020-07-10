@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd2302cf-974d-4e65-ab48-71b979d65891" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/landing/landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/landing.js" afterDir="false" />
-    </list>
+    <list default="true" id="cd2302cf-974d-4e65-ab48-71b979d65891" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +123,7 @@
       <workItem from="1594278562196" duration="3762000" />
       <workItem from="1594294387480" duration="2105000" />
       <workItem from="1594307030423" duration="55000" />
-      <workItem from="1594309380551" duration="5099000" />
+      <workItem from="1594309380551" duration="5394000" />
     </task>
     <servers />
   </component>
