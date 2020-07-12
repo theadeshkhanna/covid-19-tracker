@@ -5,8 +5,8 @@ const KnowTheDeveloper = () => {
     return (
         <div className={classes.View}>
             <img src={require("../../assets/me.jpg")} className={classes.Me} alt="me"/>
-            <p className={classes.Intro}>I am Adesh Khanna</p>
-            <p className={classes.Intro}>and i am a web and mobile developer</p>
+            <p className={classes.Intro}>Myself Adesh Khanna</p>
+            <p className={classes.Intro}>I am software developer</p>
             <br />
             <p className={classes.Intro}>some of my skills are - </p>
             <br />
