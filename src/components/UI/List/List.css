@@ -1,9 +1,9 @@
 .ListContainer {
     overflow: hidden;
     position: relative;
-    height: 65px;
-    padding-top: 10px;
-    margin-top: -10px;
+    height: 4.0625rem;
+    padding-top: 0.625rem;
+    margin-top: -0.625rem;
 }
 
 .List {
@@ -12,19 +12,19 @@
 }
 
 .List li {
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: bold;
-    padding: 0 10px;
-    height: 45px;
-    margin-bottom: 45px;
+    padding: 0 0.625rem;
+    height: 2.8125rem;
+    margin-bottom: 2.8125rem;
     display: block;
 }
 
 @keyframes flip2 {
-    0% { margin-top: -180px; }
-    5% { margin-top: -90px;  }
-    50% { margin-top: -90px; }
+    0% { margin-top: -11.25rem; }
+    5% { margin-top: -5.625rem;  }
+    50% { margin-top: -5.625rem; }
     55% { margin-top: 0; }
     99.99% { margin-top: 0; }
-    100% { margin-top: -270px; }
+    100% { margin-top: -16.875rem; }
 }

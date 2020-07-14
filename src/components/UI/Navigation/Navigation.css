@@ -1,7 +1,7 @@
 .Navigation {
-    margin: -20px;
+    margin: -1.25rem;
     background-color: #FA9F42;
-    width: 101.065vw;
+    width: 117.172rem;
 }
 
 .Nav {
@@ -15,10 +15,10 @@
 }
 
 .LeftNavi li {
-    padding-top: 10px;
+    padding-top: 0.625rem;
     list-style: none;
-    margin: 15px;
-    font-size: 20px;
+    margin: 0.9375rem;
+    font-size: 1.25rem;
 }
 
 .LeftNavi li a{
@@ -34,14 +34,14 @@
 
 .RightNavi {
     display: flex;
-    padding-right: 20px;
+    padding-right: 1.25rem;
 }
 
 .RightNavi li {
-    padding-top: 10px;
+    padding-top: 0.625rem;
     list-style: none;
-    margin: 15px;
-    font-size: 20px;
+    margin: 0.9375rem;
+    font-size: 1.25rem;
 }
 
 .RightNavi li a{
