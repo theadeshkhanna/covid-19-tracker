@@ -1,6 +1,6 @@
 .Head {
-    margin-top: 100px;
-    padding: 0 40px 40px 0;
+    margin-top: 6.25rem;
+    padding: 0 2.5rem 2.5rem 0;
     display: flex;
     justify-content: space-evenly;
 }
@@ -8,49 +8,49 @@
 .IndividualConfirmed {
     text-transform: uppercase;
     background-color: rgba(255, 0, 0, 0.1);
-    border-radius: 20px;
-    padding: 18px 25px;
-    width: 160px;
-    height: 120px;
+    border-radius: 1.25rem;
+    padding: 1.125rem 1.5625rem;
+    width: 10rem;
+    height: 7.5rem;
 }
 
 .IndividualActive {
     text-transform: uppercase;
     background-color: rgba(0, 0, 255, 0.1);
-    border-radius: 20px;
-    padding: 18px 25px;
-    width: 160px;
-    height: 120px;
+    border-radius: 1.25rem;
+    padding: 1.125rem 1.5625rem;
+    width: 10rem;
+    height: 7.5rem;
 }
 
 .IndividualRecovered {
     text-transform: uppercase;
     background-color: rgba(0, 128, 0, 0.1);
-    border-radius: 20px;
-    padding: 18px 25px;
-    width: 160px;
-    height: 120px;
+    border-radius: 1.25rem;
+    padding: 1.125rem 1.5625rem;
+    width: 10rem;
+    height: 7.5rem;
 }
 
 .IndividualDeath {
     text-transform: uppercase;
     background-color: rgba(128, 128, 128, 0.1);
-    border-radius: 20px;
-    padding: 22px 31px;
-    width: 152px;
-    height: 110px;
+    border-radius: 1.25rem;
+    padding: 1.375rem 1.9375rem;
+    width: 9.5rem;
+    height: 6.875rem;
 }
 
 .Confirmed {
     text-align: left;
     color: rgba(114, 24, 23, 0.5);
     margin-bottom: -2px;
-    font-size: 15px;
+    font-size: 0.9375rem;
 }
 
 .ConfirmedData {
     color: #721817;
-    font-size: 45px;
+    font-size: 2.8125rem;
     font-weight: bold;
 }
 
@@ -58,12 +58,12 @@
     text-align: left;
     color: rgba(43, 65, 98, 0.5);
     margin-bottom: -2px;
-    font-size: 15px;
+    font-size: 0.9375rem;
 }
 
 .ActiveData {
     color: #2B4162;
-    font-size: 45px;
+    font-size: 2.8125rem;
     font-weight: bold;
 }
 
@@ -71,12 +71,12 @@
     text-align: left;
     color: rgba(11, 110, 79, 0.5);
     margin-bottom: -2px;
-    font-size: 15px;
+    font-size: 0.9375rem;
 }
 
 .RecoveredData {
     color: #0B6E4F;
-    font-size: 45px;
+    font-size: 2.8125rem;
     font-weight: bold;
 }
 
@@ -84,11 +84,11 @@
     text-align: left;
     color: rgba(158, 158, 161, 0.5);
     margin-bottom: -2px;
-    font-size: 15px;
+    font-size: 0.9375rem;
 }
 
 .DeathData {
     color: #9E9EA1;
-    font-size: 45px;
+    font-size: 2.8125rem;
     font-weight: bold;
 }
