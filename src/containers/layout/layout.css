@@ -7,9 +7,8 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    position: absolute;
-    top: 9.375rem;
-    left: 4.375rem;
+    float: left;
+    margin-left: 4rem;
     width: 4%;
 }
 
@@ -18,9 +17,9 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    position: absolute;
-    top: 13.75rem;
-    left: 18.75rem;
+    float: left;
+    margin-top: 8rem;
+    margin-left: 8rem;
     width: 4%;
 }
 
@@ -29,9 +28,9 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    position: absolute;
-    top: 6.25rem;
-    left: 31.25rem;
+    float: left;
+    margin-top: 4rem;
+    margin-left: 20rem;
     width: 4%;
 }
 
@@ -40,9 +39,9 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    position: absolute;
-    top: 6.25rem;
-    left: 109.375rem;
+    float: right;
+    margin-top: 4rem;
+    margin-right: 4rem;
     width: 4%;
 }
 
@@ -51,9 +50,9 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    position: absolute;
-    top: 12.5rem;
-    left: 78.125rem;
+    float: right;
+    margin-top: 8rem;
+    margin-right: 20rem;
     width: 4%;
 }
 
@@ -62,9 +61,9 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    position: absolute;
-    top: 25rem;
-    left: 100rem;
+    float: right;
+    margin-top: 15rem;
+    margin-right: -20rem;
     width: 4%;
 }
 
@@ -73,9 +72,9 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    position: absolute;
-    top: 37.5rem;
-    left: 109.375rem;
+    float: right;
+    margin-top: 33rem;
+    margin-right: -20rem;
     width: 4%;
 }
 
@@ -84,9 +83,8 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    position: absolute;
-    top: 6.25rem;
-    left: 93.75rem;
+    float: right;
+    margin-right: -18rem;
     width: 4%;
 }
 
@@ -95,9 +93,9 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    position: absolute;
-    top: 21.875rem;
-    left: 1.25rem;
+    float: left;
+    margin-top: 18rem;
+    margin-left: -45rem;
     width: 4%;
 }
 
@@ -106,9 +104,9 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    position: absolute;
-    top: 34.375rem;
-    left: 6.25rem;
+    float: left;
+    margin-top: 30rem;
+    margin-left: -35rem;
     width: 4%;
 }
 
@@ -117,9 +115,9 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    position: absolute;
-    top: 46.875rem;
-    left: 7.5rem;
+    float: left;
+    margin-top: 40rem;
+    margin-left: -40rem;
     width: 4%;
 }
 
@@ -128,9 +126,9 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    position: absolute;
-    top: 43.75rem;
-    left: 103.125rem;
+    float: right;
+    margin-top: 45rem;
+    margin-right: -30rem;
     width: 4%;
 }
 
